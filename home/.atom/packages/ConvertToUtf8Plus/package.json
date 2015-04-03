@@ -1,0 +1,135 @@
+{
+  "name": "ConvertToUtf8Plus",
+  "main": "./lib/convert-to-utf8",
+  "version": "0.2.2",
+  "description": "ConvertToUTF8 package for editing and saving files encoded in BIG5, GBK, Shift_JIS, etc",
+  "activationEvents": [
+    "convert-to-utf8:gbk",
+    "convert-to-utf8:big5",
+    "convert-to-utf8:euc-kr",
+    "convert-to-utf8:shift_jis",
+    "convert-to-utf8:cp932",
+    "convert-to-utf8:euc-jp",
+    "convert-to-utf8:utf8"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CYBAI/convert-to-utf8"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.4.4",
+    "jschardet": "^1.1.0"
+  },
+  "readme": "# ConvertToUTF8 PLUS #\n\n*This is a fork repo from [@dongri's ConvertToUtf8](https://github.com/dongri/convert-to-utf8)*\n\nConvertToUTF8 package for editing and saving files encoded in Big5, GBK, Shift_JIS, etc.\n\n#### Choose from Packages or Command Palette ####\n\n![From Package](https://www.dropbox.com/s/z77imas7akt195e/choose-from-pkg.png?raw=1)\n\n![From Cmd Palette](https://www.dropbox.com/s/ew81i0gbspgg4y4/choose-from-cmd.png?raw=1)\n\n#### Result ####\n\n![Chinese Traditional](https://www.dropbox.com/s/hlswce95dwa2fqc/tw.png?raw=1)\n\n![Japanese Shift_JIS](https://www.dropbox.com/s/8gyc9ewom7pcnw2/jp.png?raw=1)\n\n![Korean EUC-KR](https://www.dropbox.com/s/hdd7cyyyjvkyq4n/kr.png?raw=1)\n\n![Chinese Simplified](https://www.dropbox.com/s/8majo23te20cq6k/cn.png?raw=1)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/CYBAI/convert-to-utf8/issues"
+  },
+  "homepage": "https://github.com/CYBAI/convert-to-utf8",
+  "_id": "ConvertToUtf8Plus@0.2.2",
+  "_shasum": "679c3e4c251181d6c21a6b2ec1f5cd65239715e6",
+  "_resolved": "file:../d-115226-1081-16wlam5/package.tgz",
+  "_from": "../d-115226-1081-16wlam5/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [
+      {
+        "name": "iconv-lite",
+        "version": "0.4.7",
+        "path": "node_modules/iconv-lite/lib/index.js"
+      },
+      {
+        "name": "jschardet",
+        "version": "1.1.1",
+        "path": "node_modules/jschardet/src/init.js"
+      }
+    ],
+    "extensions": {
+      ".coffee": [
+        "lib/convert-to-utf8-view.coffee",
+        "lib/convert-to-utf8.coffee"
+      ],
+      ".js": [
+        "node_modules/iconv-lite/encodings/dbcs-codec.js",
+        "node_modules/iconv-lite/encodings/dbcs-data.js",
+        "node_modules/iconv-lite/encodings/index.js",
+        "node_modules/iconv-lite/encodings/internal.js",
+        "node_modules/iconv-lite/encodings/sbcs-codec.js",
+        "node_modules/iconv-lite/encodings/sbcs-data-generated.js",
+        "node_modules/iconv-lite/encodings/sbcs-data.js",
+        "node_modules/iconv-lite/encodings/utf16.js",
+        "node_modules/iconv-lite/encodings/utf7.js",
+        "node_modules/iconv-lite/lib/extend-node.js",
+        "node_modules/iconv-lite/lib/index.js",
+        "node_modules/iconv-lite/lib/streams.js",
+        "node_modules/jschardet/index.js",
+        "node_modules/jschardet/src/big5freq.js",
+        "node_modules/jschardet/src/big5prober.js",
+        "node_modules/jschardet/src/chardistribution.js",
+        "node_modules/jschardet/src/charsetgroupprober.js",
+        "node_modules/jschardet/src/charsetprober.js",
+        "node_modules/jschardet/src/codingstatemachine.js",
+        "node_modules/jschardet/src/constants.js",
+        "node_modules/jschardet/src/escprober.js",
+        "node_modules/jschardet/src/escsm.js",
+        "node_modules/jschardet/src/eucjpprober.js",
+        "node_modules/jschardet/src/euckrfreq.js",
+        "node_modules/jschardet/src/euckrprober.js",
+        "node_modules/jschardet/src/euctwfreq.js",
+        "node_modules/jschardet/src/euctwprober.js",
+        "node_modules/jschardet/src/gb2312freq.js",
+        "node_modules/jschardet/src/gb2312prober.js",
+        "node_modules/jschardet/src/hebrewprober.js",
+        "node_modules/jschardet/src/index.js",
+        "node_modules/jschardet/src/init.js",
+        "node_modules/jschardet/src/jisfreq.js",
+        "node_modules/jschardet/src/jpcntx.js",
+        "node_modules/jschardet/src/langbulgarianmodel.js",
+        "node_modules/jschardet/src/langcyrillicmodel.js",
+        "node_modules/jschardet/src/langgreekmodel.js",
+        "node_modules/jschardet/src/langhebrewmodel.js",
+        "node_modules/jschardet/src/langhungarianmodel.js",
+        "node_modules/jschardet/src/langthaimodel.js",
+        "node_modules/jschardet/src/latin1prober.js",
+        "node_modules/jschardet/src/mbcharsetprober.js",
+        "node_modules/jschardet/src/mbcsgroupprober.js",
+        "node_modules/jschardet/src/mbcssm.js",
+        "node_modules/jschardet/src/sbcharsetprober.js",
+        "node_modules/jschardet/src/sbcsgroupprober.js",
+        "node_modules/jschardet/src/sjisprober.js",
+        "node_modules/jschardet/src/universaldetector.js",
+        "node_modules/jschardet/src/utf8prober.js"
+      ],
+      ".json": [
+        "node_modules/iconv-lite/encodings/tables/big5-added.json",
+        "node_modules/iconv-lite/encodings/tables/cp936.json",
+        "node_modules/iconv-lite/encodings/tables/cp949.json",
+        "node_modules/iconv-lite/encodings/tables/cp950.json",
+        "node_modules/iconv-lite/encodings/tables/eucjp.json",
+        "node_modules/iconv-lite/encodings/tables/gb18030-ranges.json",
+        "node_modules/iconv-lite/encodings/tables/gbk-added.json",
+        "node_modules/iconv-lite/encodings/tables/shiftjis.json",
+        "node_modules/iconv-lite/package.json",
+        "node_modules/jschardet/package.json",
+        "package.json"
+      ]
+    },
+    "folders": [
+      {
+        "paths": [
+          "lib",
+          "",
+          "spec"
+        ],
+        "dependencies": {
+          "iconv-lite": "^0.4.4",
+          "jschardet": "^1.1.0"
+        }
+      }
+    ]
+  }
+}

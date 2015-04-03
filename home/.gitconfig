@@ -1,0 +1,7 @@
+[user]
+	name = hiyokokuma
+	email = constellationmeister@gmail.com
+[push]
+	default = simple
+[core]
+	editor = vim -f

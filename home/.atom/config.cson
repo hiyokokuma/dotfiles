@@ -1,0 +1,30 @@
+"*":
+  editor:
+    invisibles: {}
+    lineHeight: 1.4
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+    zoomFontWhenCtrlScrolling: true
+    fontSize: 13
+  core:
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+    disabledPackages: [
+      "ConvertToUtf8Plus"
+      "feedback"
+      "atom-color-highlight"
+    ]
+  "exception-reporting":
+    userId: "5d8b724b-b7f6-6f25-1282-9e70b937cb38"
+  welcome:
+    showOnStartup: false
+  minimap:
+    plugins:
+      "find-and-replace": true
+  localization:
+    CurrentLanguage: "Japanese"
+  "japanese-wrap":
+    characterWidth: {}
+  "atom-color-highlight": {}

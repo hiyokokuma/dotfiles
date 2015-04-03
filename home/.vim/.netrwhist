@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/kuma/.vim'
+let g:netrw_dirhist_2='/Users/kuma/Downloads/web-1'
+let g:netrw_dirhist_3='/usr/local/Library/hiyokokuma_Brewfile/.git'
+let g:netrw_dirhist_4='/Users/kuma/Desktop/dotfiles/.git'

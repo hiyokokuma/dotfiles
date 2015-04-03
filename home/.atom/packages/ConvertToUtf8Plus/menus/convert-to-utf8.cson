@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+# 'context-menu':
+#   '.overlayer':
+#       'Enable convert-to-utf8': 'convert-to-utf8:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'ConvertToUTF8'
+      'submenu': [
+        { 'label': 'Chinese Simplified (GBK)', 'command': 'convert-to-utf8:gbk' }
+        { 'label': 'Chinese Traditional (Big5)', 'command': 'convert-to-utf8:big5' }
+        { 'label': 'Korean (EUC-KR)', 'command': 'convert-to-utf8:euc-kr' }
+        { 'label': 'Japanese (CP932)', 'command': 'convert-to-utf8:cp932' }
+        { 'label': 'Japanese (Shift_JIS)', 'command': 'convert-to-utf8:shift_jis' }
+        { 'label': 'Japanese (EUC-JP)', 'command': 'convert-to-utf8:euc-jp' }
+        { 'label': 'UTF-8',   'command': 'convert-to-utf8:utf8' }
+      ]
+    ]
+  }
+]

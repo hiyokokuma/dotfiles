@@ -1,0 +1,467 @@
+# この viminfo ファイルは Vim 7.4 によって生成されました.
+# 変更する際には十分注意してください!
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後の 検索パターン:
+~MSle0~/\<cask\>
+
+# 最後に置換された文字列:
+$
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:q
+:wq
+:wq!
+:w
+:q!
+:w!
+:no nu
+:nu
+:unset nu
+:set nu
+:e ~/.vimrc
+:e ~/.vim/.vimrc
+:e
+:noh
+:bn
+:bn4
+:nb
+:ls
+:e ~/Downloads/web-1/
+:q!
+:qw
+:colorscheme
+:wa
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+? @$
+? \<cask\>
+?/dark
+?/color
+?/btn
+?/alias
+?/path
+?/fugi
+?/jjjjjj
+?/statusLine
+?/colorscheme
+?/prompt
+?/User/
+?/share
+?/synced_folder
+?/vm.sync
+?/config.vm.net
+?/DocumentRoot
+?/php
+?/LoadModu
+?/LoadModule
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+"0	CHAR	0
+	"
+"1	LINE	0
+		name = hiyokokuma
+"2	LINE	0
+	[usr]
+"3	LINE	0
+	
+	小野グループ
+"4	LINE	0
+		name = hiyokokuma
+"5	LINE	0
+	[usr]
+"6	LINE	0
+	cask install keyremap4macbook
+"7	LINE	0
+	cask install alfred
+	cask alfred link 
+"8	LINE	0
+	install readline
+"9	LINE	0
+	install gdbm
+""-	CHAR	0
+	a
+
+# ファイルマーク:
+'0  5  1  ~/.gitconfig
+'1  1  0  ~/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/6AE54D2D-1679-4BA8-80CC-3CE67B8DABF4/キックオフ　小野G台本.txt
+'2  1  0  ~/Desktop/dotfiles/git
+'3  1  0  ~/Desktop/dotfiles/home/.gitconfig
+'4  35  0  ~/Desktop/dotfiles/home/.vimrc
+'5  64  0  ~/.vimrc
+'6  33  0  /usr/local/Library/hiyokokuma_Brewfile/BrewFile
+'7  31  0  /usr/local/Library/hiyokokuma_Brewfile/BrewFile
+'8  47  19  /usr/local/Library/hiyokokuma_Brewfile/BrewFile
+'9  46  0  /usr/local/Library/hiyokokuma_Brewfile/BrewFile
+
+# ジャンプリスト (新しいものが先):
+-'  5  1  ~/.gitconfig
+-'  1  0  ~/.gitconfig
+-'  1  0  ~/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/6AE54D2D-1679-4BA8-80CC-3CE67B8DABF4/キックオフ　小野G台本.txt
+-'  14  0  ~/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/6AE54D2D-1679-4BA8-80CC-3CE67B8DABF4/キックオフ　小野G台本.txt
+-'  1  0  ~/Desktop/dotfiles/.git
+-'  1  0  ~/Desktop/dotfiles/git
+-'  1  0  ~/Desktop/dotfiles/home/.gitconfig
+-'  35  0  ~/Desktop/dotfiles/home/.vimrc
+-'  1  0  ~/Desktop/dotfiles/home/.vimrc
+-'  64  0  ~/.vimrc
+-'  29  0  ~/.vimrc
+-'  38  0  ~/.vimrc
+-'  1  0  /usr/local/Library/hiyokokuma_Brewfile/.git
+-'  33  0  /usr/local/Library/hiyokokuma_Brewfile/BrewFile
+-'  31  0  /usr/local/Library/hiyokokuma_Brewfile/BrewFile
+-'  47  0  /usr/local/Library/hiyokokuma_Brewfile/BrewFile
+-'  46  0  /usr/local/Library/hiyokokuma_Brewfile/BrewFile
+-'  18  0  /usr/local/Library/hiyokokuma_Brewfile/BrewFile
+-'  2  0  /usr/local/Library/hiyokokuma_Brewfile/BrewFile
+-'  19  13  /usr/local/Library/hiyokokuma_Brewfile/BrewFile
+-'  1  0  /usr/local/Library/hiyokokuma_Brewfile/BrewFile
+-'  127  61  ~/.vimrc
+-'  110  67  ~/.vimrc
+-'  75  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  69  0  ~/.vimrc
+-'  149  0  ~/.vimrc
+-'  68  0  ~/.vimrc
+-'  1  0  ~/.vim/.vimrc
+-'  1  2  ~/Downloads/web/beacon-config.xml
+-'  75  2  ~/.zprofile
+-'  46  2  ~/.zprofile
+-'  13  15  ~/Downloads/web-1/beacon-config.xml
+-'  43  0  ~/Downloads/web-1/beacon-config.xml
+-'  46  0  ~/.vimrc
+-'  5  6  ~/Downloads/web-1/index.html
+-'  1  0  ~/Downloads/web-1/beacon-config.xml
+-'  15  0  ~/Downloads/web-1
+-'  1  0  ~/Downloads/web-1
+-'  61  10  ~/Downloads/web-1/index.html
+-'  50  25  ~/Downloads/web-1/index.html
+-'  36  66  ~/Downloads/web-1/index.html
+-'  35  64  ~/Downloads/web-1/index.html
+-'  34  67  ~/Downloads/web-1/index.html
+-'  33  56  ~/Downloads/web-1/index.html
+-'  68  68  ~/Downloads/web-1/index.html
+-'  51  63  ~/Downloads/web-1/index.html
+-'  22  0  ~/Downloads/web-1/index.html
+-'  1  0  ~/Downloads/web-1/index.html
+-'  10  0  ~/.vimrc
+-'  78  0  ~/.vimrc
+-'  36  0  ~/.vimrc
+-'  22  0  ~/.vimrc
+-'  126  0  ~/.vimrc
+-'  115  8  ~/.vimrc
+-'  71  0  ~/.vimrc
+-'  178  0  ~/.vimrc
+-'  299  0  ~/.vimrc
+-'  297  0  ~/.vimrc
+-'  304  0  ~/.vimrc
+-'  303  0  ~/.vimrc
+-'  247  0  ~/.vimrc
+-'  248  0  ~/.vimrc
+-'  13  15  ~/Downloads/web-1/beacon-config.xml
+-'  43  0  ~/Downloads/web-1/beacon-config.xml
+-'  5  6  ~/Downloads/web-1/index.html
+-'  1  0  ~/Downloads/web-1/beacon-config.xml
+-'  15  0  ~/Downloads/web-1
+-'  1  0  ~/Downloads/web-1
+-'  61  10  ~/Downloads/web-1/index.html
+-'  50  25  ~/Downloads/web-1/index.html
+-'  36  66  ~/Downloads/web-1/index.html
+-'  35  64  ~/Downloads/web-1/index.html
+-'  34  67  ~/Downloads/web-1/index.html
+-'  33  56  ~/Downloads/web-1/index.html
+-'  68  68  ~/Downloads/web-1/index.html
+-'  51  63  ~/Downloads/web-1/index.html
+-'  22  0  ~/Downloads/web-1/index.html
+-'  1  0  ~/Downloads/web-1/index.html
+-'  75  2  ~/.zprofile
+-'  46  2  ~/.zprofile
+-'  13  15  ~/Downloads/web-1/beacon-config.xml
+-'  43  0  ~/Downloads/web-1/beacon-config.xml
+-'  5  6  ~/Downloads/web-1/index.html
+-'  1  0  ~/Downloads/web-1/beacon-config.xml
+-'  15  0  ~/Downloads/web-1
+-'  1  0  ~/Downloads/web-1
+-'  61  10  ~/Downloads/web-1/index.html
+-'  50  25  ~/Downloads/web-1/index.html
+-'  36  66  ~/Downloads/web-1/index.html
+-'  35  64  ~/Downloads/web-1/index.html
+-'  34  67  ~/Downloads/web-1/index.html
+-'  33  56  ~/Downloads/web-1/index.html
+-'  68  68  ~/Downloads/web-1/index.html
+-'  51  63  ~/Downloads/web-1/index.html
+-'  22  0  ~/Downloads/web-1/index.html
+-'  1  0  ~/Downloads/web-1/index.html
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/.gitconfig
+	"	5	1
+	^	3	29
+	.	3	28
+	+	1	0
+	+	3	28
+
+> ~/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/6AE54D2D-1679-4BA8-80CC-3CE67B8DABF4/キックオフ　小野G台本.txt
+	"	1	0
+	.	6	0
+	+	6	0
+
+> ~/Desktop/dotfiles/git
+	"	1	0
+
+> ~/Desktop/dotfiles/home/.gitconfig
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/Desktop/dotfiles/home/.vimrc
+	"	35	0
+
+> ~/.vimrc
+	"	64	0
+	^	38	1
+	.	30	0
+	+	354	11
+	+	183	0
+	+	187	0
+	+	207	0
+	+	245	12
+	+	247	29
+	+	289	0
+	+	290	0
+	+	288	0
+	+	303	107
+	+	303	0
+	+	303	120
+	+	178	0
+	+	6	0
+	+	10	1
+	+	30	0
+	+	68	17
+	+	71	28
+	+	22	1
+	+	22	0
+	+	68	0
+	+	69	17
+	+	176	0
+	+	46	0
+	+	69	1
+	+	68	0
+	+	38	0
+	+	68	0
+	+	69	0
+	+	68	0
+	+	69	0
+	+	38	0
+	+	29	0
+	+	30	0
+
+> /usr/local/Library/hiyokokuma_Brewfile/BrewFile
+	"	33	0
+	.	28	0
+	+	11	0
+	+	31	0
+	+	32	0
+	+	19	18
+	+	2	0
+	+	21	25
+	+	18	0
+	+	19	0
+	+	21	19
+	+	21	0
+	+	31	0
+	+	31	0
+	+	21	12
+	+	31	12
+	+	31	12
+	+	21	32
+	+	31	0
+	+	43	24
+	+	45	7
+	+	48	0
+	+	41	0
+	+	48	0
+	+	41	0
+	+	21	21
+	+	21	13
+	+	21	13
+	+	31	0
+	+	18	0
+	+	19	0
+	+	21	0
+	+	21	0
+	+	21	0
+	+	20	0
+	+	20	0
+	+	31	0
+	+	59	0
+	+	64	0
+	+	60	0
+	+	63	0
+	+	61	0
+	+	67	0
+	+	21	16
+	+	21	0
+	+	31	2
+	+	22	0
+	+	31	0
+	+	21	0
+	+	22	0
+	+	25	0
+	+	4	11
+	+	6	6
+	+	4	0
+	+	3	0
+	+	26	16
+	+	53	0
+	+	51	0
+	+	48	0
+	+	48	0
+	+	52	0
+	+	27	22
+	+	28	28
+	+	28	18
+	+	26	19
+	+	21	0
+	+	29	0
+	+	28	0
+
+> ~/.vim/.vimrc
+	"	1	0
+
+> ~/Downloads/web/beacon-config.xml
+	"	1	2
+	^	4	75
+	.	23	0
+	+	4	74
+	+	23	0
+
+> ~/.zprofile
+	"	75	2
+	^	46	41
+	.	46	2
+	+	46	2
+
+> ~/Downloads/web-1/index.html
+	"	5	6
+
+> ~/Downloads/web-1/beacon-config.xml
+	"	13	15
+	^	41	20
+	.	41	19
+	+	23	0
+	+	43	0
+	+	42	0
+	+	41	19
+
+> ~/.zshrc
+	"	22	11
+	^	22	12
+	.	22	0
+	+	25	48
+	+	25	0
+	+	19	0
+	+	25	0
+	+	24	0
+	+	25	0
+	+	23	0
+	+	22	0
+
+> ~/.zshenv
+	"	11	0
+
+> ~/.viminfo
+	"	60	1
+
+> ~/.zpreztorc
+	"	57	0
+	^	38	6
+	.	39	0
+	+	91	0
+	+	92	44
+	+	35	12
+	+	36	0
+	+	37	0
+	+	38	0
+	+	36	3
+	+	37	10
+	+	38	7
+	+	39	0
+
+> /private/etc/shells
+	"	11	17
+	^	11	18
+	.	11	17
+	+	12	17
+	+	11	17
+
+> ~/Desktop/iBeacon/beacon.js
+	"	119	0
+	^	119	1
+	.	36	0
+	+	1	0
+	+	1	13
+	+	1	0
+	+	1	12
+	+	1	0
+	+	1	29
+	+	119	0
+	+	34	0
+	+	36	0
+
+> ~/Desktop/iBeacon/out.js
+	"	3	12
+	^	3	53
+	.	3	12
+	+	8	0
+	+	3	12
+
+> ~/Documents/VirtualBox VMs/vccw/site.yml
+	"	31	0
+	.	21	7
+	+	21	7
+
+> ~/.bash_profile
+	"	1	0
+	.	1	0
+	+	1	2
+	+	1	1
+	+	1	29
+	+	1	3
+	+	1	3
+	+	1	0
+	+	1	0
+	+	1	0
+
+> ~/Documents/VirtualBox VMs/coreos-vagrant/Vagrantfile
+	"	124	36
+	^	124	37
+	.	124	36
+	+	124	36
+
+> /Library/WebServer/Documents/phpinfo.php
+	"	3	0
+	^	3	1
+	.	3	0
+	+	3	0
+
+> /private/etc/apache2/httpd.conf
+	"	293	2
+
+> /private/etc/php.ini
+	"	15	0
+
+> /private/etc/hosts
+	"	1	0
