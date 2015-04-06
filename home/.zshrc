@@ -1,0 +1,1 @@
+/Users/kuma/.zprezto/runcoms/zshrc

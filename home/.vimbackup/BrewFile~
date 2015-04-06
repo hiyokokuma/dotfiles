@@ -1,0 +1,68 @@
+
+# tap repositories and their packages
+#
+# initialize
+update
+upgrade
+
+## caskroom/cask
+tap caskroom/cask
+install brew-cask
+cask install atom
+cask install betterzipql
+cask install qlcolorcode
+cask install qlimagesize
+cask install qlmarkdown
+cask install qlstephen
+cask install suspicious-package
+cask install vagrant
+cask install virtualbox
+cask install sophos-anti-virus-home-edition
+cask install coda
+cask install google-chrome
+cask install google-japanese-ime
+cask install firefox
+cask install karabiner
+cask install java # JDK8
+cask install xtrafinder
+cask install iterm2
+cask install alfred
+cask install the-unarchiver
+cask alfred link
+
+
+## homebrew/binary
+tap homebrew/binary
+
+## rcmdnk/file
+tap rcmdnk/file
+install brew-file
+
+## splhack/splhack
+tap splhack/splhack
+install cmigemo-mk --HEAD
+install ctags-objc-ja --HEAD
+install gettext-mk --HEAD
+install macvim-kaoriya --HEAD
+linkapps
+
+# Other Homebrew packages
+install nkf
+install node
+install openssl
+install git
+install ruby
+install zsh
+install zsh-completions
+
+# App Store applications
+appstore 1Password
+appstore Aperture
+appstore Keynote
+appstore Pages
+appstore Numbers
+appstore Microsoft OneNote
+appstore OmniFocus
+appstore Pixelmator
+appstore TrashMe
+appstore Xcode
