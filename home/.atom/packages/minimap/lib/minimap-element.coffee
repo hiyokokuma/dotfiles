@@ -219,9 +219,9 @@ class MinimapElement extends HTMLElement
           @quickSettingsSubscription = @quickSettingsElement.onDidDestroy =>
             @quickSettingsElement = null
 
-          @quickSettingsElement.attach()
           {top, left, right} = @canvas.getBoundingClientRect()
           @quickSettingsElement.style.top = top + 'px'
+          @quickSettingsElement.attach()
 
           if @displayMinimapOnLeft
             @quickSettingsElement.style.left = (right) + 'px'
@@ -330,14 +330,16 @@ class MinimapElement extends HTMLElement
 
     visibleAreaLeft = @minimap.getTextEditorScaledScrollLeft()
     visibleAreaTop = @minimap.getTextEditorScaledScrollTop() - @minimap.getScrollTop()
+    visibleWidth = Math.min(@canvas.width / devicePixelRatio, @width)
+
 
     @applyStyles @visibleArea,
-      width: @clientWidth + 'px'
+      width: visibleWidth + 'px'
       height: @minimap.getTextEditorScaledHeight() + 'px'
       transform: @makeTranslate(visibleAreaLeft, visibleAreaTop)
 
     @applyStyles @controls,
-      width: Math.min(@canvas.width / devicePixelRatio, @width) + 'px'
+      width: visibleWidth + 'px'
 
     canvasTop = @minimap.getFirstVisibleScreenRow() * @minimap.getLineHeight() - @minimap.getScrollTop()
 
@@ -461,7 +463,7 @@ class MinimapElement extends HTMLElement
     if atom.config.get('minimap.scrollAnimation')
       from = textEditor.getScrollTop()
       to = scrollTop
-      step = (now) => textEditor.setScrollTop(now)
+      step = (now) -> textEditor.setScrollTop(now)
       duration = atom.config.get('minimap.scrollAnimationDuration')
       @animate(from: from, to: to, duration: duration, step: step)
     else
@@ -504,7 +506,7 @@ class MinimapElement extends HTMLElement
     document.body.addEventListener('mouseup', mouseupHandler)
     document.body.addEventListener('mouseleave', mouseupHandler)
 
-    @dragSubscription = new Disposable =>
+    @dragSubscription = new Disposable ->
       document.body.removeEventListener('mousemove', mousemoveHandler)
       document.body.removeEventListener('mouseup', mouseupHandler)
       document.body.removeEventListener('mouseleave', mouseupHandler)

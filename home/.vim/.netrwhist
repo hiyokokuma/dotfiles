@@ -1,3 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/Users/kuma/.homesick/repos/dotfiles/home/.zprezto'
+let g:netrw_dirhist_2='/Users/kuma/Desktop/KumamotoPedia'
+let g:netrw_dirhist_3='/Users/kuma/Desktop/KumamotoPedia/src'
+let g:netrw_dirhist_4='/Users/kuma/Desktop/KumamotoPedia/src/jp'
+let g:netrw_dirhist_5='/Users/kuma/Desktop/KumamotoPedia/src/jp/co'
+let g:netrw_dirhist_6='/Users/kuma/Desktop/KumamotoPedia/src/jp/co/nttcom'
+let g:netrw_dirhist_7='/Users/kuma/Desktop/KumamotoPedia/src/jp/co/nttcom/nbp'
+let g:netrw_dirhist_8='/Users/kuma/Desktop/KumamotoPedia/src/jp/co/nttcom/nbp/kumamotopedia'
