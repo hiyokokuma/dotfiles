@@ -213,17 +213,5 @@ filetype plugin indent on
 NeoBundleCheck
 
 
-""""""""""""""""""""""""""""""
-" GUI版設定
-""""""""""""""""""""""""""""""
-if has('gui_macvim')
-    set transparency=7 "透明度
-    set guifont=Menlo:h13
-    set lines=40 columns=120
-    set guioptions-=T
-    set antialias
-endif
-""""""""""""""""""""""""""""""
-
 " filetypeの自動検出(最後の方に書いた方がいいらしい)
 filetype on
