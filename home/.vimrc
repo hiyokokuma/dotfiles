@@ -27,15 +27,14 @@ set wildmenu
 " 入力中のコマンドを表示する
 set showcmd
 " バックアップディレクトリの指定(でもバックアップは使ってない)
-set backupdir=$HOME/.vimbackup
+"set backupdir=$HOME/.vimbackup
+set nobackup
 " バッファで開いているファイルのディレクトリでエクスクローラを開始する(でもエクスプローラって使ってない)
 set browsedir=buffer
 " 小文字のみで検索したときに大文字小文字を無視する
 set smartcase
 " 検索結果をハイライト表示する
 set hlsearch
-" 暗い背景色に合わせた配色にする
-"#set background=dark
 " タブ入力を複数の空白入力に置き換える
 set expandtab
 " 検索ワードの最初の文字を入力した時点で検索を開始する
@@ -65,10 +64,14 @@ set whichwrap=b,s,h,l,<,>,[,]
 " 構文毎に文字色を変化させる
 syntax on
 " カラースキーマの指定
-colorscheme lucius
+"colorscheme lucius
 "colorscheme desert
+colorscheme monokai
 " 行番号の色
-highlight LineNr ctermfg=gray
+"highlight LineNr ctermfg=gray
+" 暗い背景色に合わせた配色にする
+set background=dark
+"set background=light
 """"""""""""""""""""""""""""""
 
 " vimを立ち上げたときに、自動的にvim-indent-guidesをオンにする
@@ -172,6 +175,19 @@ endif
 imap { {}<LEFT>
 imap [ []<LEFT>
 imap ( ()<LEFT>
+""""""""""""""""""""""""""""""
+
+
+""""""""""""""""""""""""""""""
+" GUI版設定
+""""""""""""""""""""""""""""""
+if has('gui_macvim')
+    set transparency=7 "透明度
+    set guifont=Menlo:h13
+    set lines=40 columns=120
+    set guioptions-=T
+    set antialias
+endif
 """"""""""""""""""""""""""""""
 
 " filetypeの自動検出(最後の方に書いた方がいいらしい)

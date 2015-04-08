@@ -40,15 +40,6 @@ class MinimapElement extends HTMLElement
     @subscriptions = new CompositeDisposable
     @initializeContent()
 
-    # Uses of `atom.styles.onDidAddStyleElement` instead of
-    # `atom.themes.onDidChangeActiveThemes`.
-    # Why?
-    # Currently, The styleElement will be removed first,
-    # and then re-add. So the `change` event has not be triggered.
-    @subscriptions.add atom.styles.onDidAddStyleElement =>
-      @invalidateCache()
-      @requestForcedUpdate()
-
     @observeConfig
       'minimap.displayMinimapOnLeft': (displayMinimapOnLeft) =>
         swapPosition = @minimap? and displayMinimapOnLeft isnt @displayMinimapOnLeft
@@ -88,6 +79,15 @@ class MinimapElement extends HTMLElement
     @subscriptions.add atom.views.pollDocument => @pollDOM()
     @measureHeightAndWidth()
     @attached = true
+
+    # Uses of `atom.styles.onDidAddStyleElement` instead of
+    # `atom.themes.onDidChangeActiveThemes`.
+    # Why?
+    # Currently, The styleElement will be removed first,
+    # and then re-add. So the `change` event has not be triggered.
+    @subscriptions.add atom.styles.onDidAddStyleElement =>
+      @invalidateCache()
+      @requestForcedUpdate()
 
   # Internal: DOM callback invoked when a new {MinimapElement} is detached
   # from the DOM.
@@ -370,7 +370,7 @@ class MinimapElement extends HTMLElement
   # Internal: Polling callback used to detect visibility and size changes.
   pollDOM: ->
     if @isVisible()
-      @requestForcedUpdate() unless !@wasVisible
+      @requestForcedUpdate() unless @wasVisible
 
       @measureHeightAndWidth(false)
 
@@ -502,12 +502,12 @@ class MinimapElement extends HTMLElement
 
     document.body.addEventListener('mousemove', mousemoveHandler)
     document.body.addEventListener('mouseup', mouseupHandler)
-    document.body.addEventListener('mouseout', mouseupHandler)
+    document.body.addEventListener('mouseleave', mouseupHandler)
 
     @dragSubscription = new Disposable =>
       document.body.removeEventListener('mousemove', mousemoveHandler)
       document.body.removeEventListener('mouseup', mouseupHandler)
-      document.body.removeEventListener('mouseout', mouseupHandler)
+      document.body.removeEventListener('mouseleave', mouseupHandler)
 
   # Internal: The method called during the drag gesture.
   #

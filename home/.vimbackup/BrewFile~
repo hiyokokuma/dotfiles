@@ -3,7 +3,7 @@
 #
 # initialize
 update
-upgrade
+#upgrade
 
 ## caskroom/cask
 tap caskroom/cask

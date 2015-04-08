@@ -1,7 +1,7 @@
 {
   "name": "minimap",
   "main": "./lib/main",
-  "version": "4.7.0",
+  "version": "4.7.5",
   "private": true,
   "description": "A preview of the full source code.",
   "author": {
@@ -49,10 +49,10 @@
     "url": "https://github.com/atom-minimap/minimap/issues"
   },
   "homepage": "https://github.com/atom-minimap/minimap",
-  "_id": "minimap@4.7.0",
-  "_shasum": "5b400a38fbf04c97ee9ac4f00dcc3a202e4ba4f0",
-  "_resolved": "file:../d-115231-2723-1y3kaoi/package.tgz",
-  "_from": "../d-115231-2723-1y3kaoi/package.tgz",
+  "_id": "minimap@4.7.5",
+  "_shasum": "1f6d381e657d192aeadc8410d5ab5818f6ba790a",
+  "_resolved": "file:../d-11537-4936-hscmn6/package.tgz",
+  "_from": "../d-11537-4936-hscmn6/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
@@ -68,7 +68,7 @@
       },
       {
         "name": "event-kit",
-        "version": "1.0.3",
+        "version": "1.1.0",
         "path": "node_modules/event-kit/lib/event-kit.js"
       },
       {
@@ -148,7 +148,7 @@
       },
       {
         "name": "fs-plus",
-        "version": "2.6.0",
+        "version": "2.7.0",
         "path": "node_modules/fs-plus/lib/fs-plus.js"
       },
       {
@@ -759,7 +759,7 @@
           "node_modules/event-kit/lib"
         ],
         "dependencies": {
-          "grim": "^1.0.0"
+          "grim": "^1.2.1"
         }
       },
       {
