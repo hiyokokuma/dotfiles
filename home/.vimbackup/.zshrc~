@@ -31,3 +31,4 @@ alias view=/Applications/MacVim.app/Contents/MacOS/view
 #if (which zprof > /dev/null) ;then
   #zprof | less
 #fi
+

@@ -1,1 +1,1 @@
-./.zprezto/runcoms/zshenv
+/Users/kuma/.homesick/repos/dotfiles/home/.zprezto/runcoms/zshenv

@@ -1,1 +1,1 @@
-./.zprezto/runcoms/zlogout
+/Users/kuma/.homesick/repos/dotfiles/home/.zprezto/runcoms/zlogout
